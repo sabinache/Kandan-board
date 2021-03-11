@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+main {
+  flex: 1;
+  background-color: green;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+nav {
+  background: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  height: 100%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+}
+
+.fas {
+  margin: 15px auto;
+  justify-content: space-around;
+}
+
+.avatar {
+  align-self: flex-end;
+}
+
+#name {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  background-color: yellow;
+}
+
+.search {
+  margin: 20px;
+  padding: 10px;
+  background-color: aqua;
+  display: flex;
+}
+
+#search-bar {
+  border-radius: 30px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+#items {
+  display: flex;
+}
+
+.fab {
+  padding-left: 0.5rem;
+}
+
+.my-issues {
+  padding-left: 0.5rem;
+}
+
+.columns {
+  width: auto;
+  display: flex;
+}
+
+.backlog,
+.development,
+.in-progress,
+.done {
+  display: flex;
+  border-radius: 2.5px;
+  flex-direction: column;
+  background-color: #cac4c4;
+  margin: 10px;
+  height: auto;
+  padding: 1.5%;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #eaece3;
+  padding: 4% 3% 0% 3%;
+  margin: 2% 1%;
+}
+
+h6 {
+  padding-left: 1.5%;
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+  margin: 3% 5% 1% 0;
+}
+
+.fa-bookmark {
+  position: absolute;
+  margin-left: 12%;
+  color: green;
+}
+
+.fa-check-square {
+  position: absolute;
+  margin-left: 12%;
+  color: blue;
+}
+
+.fa-plus-square {
+  position: absolute;
+  margin-left: 12%;
+  color: red;
+  margin-top: -2;
+}
